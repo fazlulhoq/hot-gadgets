@@ -79,6 +79,11 @@ hr{
 
 }
 
+.categories a{
+    color: #000;
+    text-decoration: none;
+}
+
 .cat1 img{
     width: 50px;
     margin-top: 30px;
