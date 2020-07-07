@@ -27,11 +27,14 @@ p{
     margin-top: 20px;
 }
 
-#carouselExampleIndicators li{
-    background-color: #000;
+.carousel-indicators{
+    bottom: -30px;  
+}
+.carousel-indicators li{
+    background-color: #666;
 }
 .see-all-button{
-    color: orange;
+    color: rgb(197, 169, 116);
 }
 .card{
     padding: 20px;
@@ -40,6 +43,13 @@ p{
     border-radius: 10px;
 }
 
+hr{
+    width: 130px;
+    height: 5px;
+    border-radius: 50px;
+    margin: 0 auto;
+    background-image: linear-gradient(90deg, #FF9C35, #FFD019);
+}
 .cat1{
     width: 150px;
     height: 150px;
