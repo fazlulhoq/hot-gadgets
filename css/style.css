@@ -34,13 +34,18 @@ p{
     background-color: #666;
 }
 .see-all-button{
-    color: rgb(197, 169, 116);
+    color: tomato;
 }
 .card{
     padding: 20px;
     border: none;
     box-shadow: 5px 7px 10px #666;
     border-radius: 10px;
+}
+
+.card img{
+    width: 80%;
+    margin: 0 auto;
 }
 
 hr{
@@ -85,4 +90,20 @@ hr{
 .cat3 img{
     width: 50px;
     margin-top: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: orangered;
+}
+
+footer a:hover{
+    font-size: 14px;
+    color: tomato;
+    text-decoration: none;
 }
